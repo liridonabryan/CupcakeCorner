@@ -11,6 +11,10 @@
 		3B3113DD279AE21C0031131C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3113DC279AE21C0031131C /* ContentView.swift */; };
 		3B3113DF279AE21E0031131C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3113DE279AE21E0031131C /* Assets.xcassets */; };
 		3B3113E2279AE21E0031131C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3113E1279AE21E0031131C /* Preview Assets.xcassets */; };
+		3B470EAC279EBCB7002CDB37 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B470EAB279EBCB7002CDB37 /* Order.swift */; };
+		3B470EAE279EC2E0002CDB37 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B470EAD279EC2E0002CDB37 /* AddressView.swift */; };
+		3B470EB0279EC4ED002CDB37 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B470EAF279EC4ED002CDB37 /* CheckoutView.swift */; };
+		3BAC914D27A03B8300ADEACC /* String-EmptyChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC914C27A03B8300ADEACC /* String-EmptyChecking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		3B3113DC279AE21C0031131C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B3113DE279AE21E0031131C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B3113E1279AE21E0031131C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B470EAB279EBCB7002CDB37 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		3B470EAD279EC2E0002CDB37 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		3B470EAF279EC4ED002CDB37 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		3BAC914C27A03B8300ADEACC /* String-EmptyChecking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-EmptyChecking.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				3B3113DA279AE21C0031131C /* CupcakeCornerApp.swift */,
 				3B3113DC279AE21C0031131C /* ContentView.swift */,
+				3B470EAF279EC4ED002CDB37 /* CheckoutView.swift */,
+				3B470EAD279EC2E0002CDB37 /* AddressView.swift */,
+				3BAC914C27A03B8300ADEACC /* String-EmptyChecking.swift */,
+				3B470EAB279EBCB7002CDB37 /* Order.swift */,
 				3B3113DE279AE21E0031131C /* Assets.xcassets */,
 				3B3113E0279AE21E0031131C /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B470EAC279EBCB7002CDB37 /* Order.swift in Sources */,
+				3B470EAE279EC2E0002CDB37 /* AddressView.swift in Sources */,
+				3B470EB0279EC4ED002CDB37 /* CheckoutView.swift in Sources */,
 				3B3113DD279AE21C0031131C /* ContentView.swift in Sources */,
+				3BAC914D27A03B8300ADEACC /* String-EmptyChecking.swift in Sources */,
 				3B3113DB279AE21C0031131C /* CupcakeCornerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
